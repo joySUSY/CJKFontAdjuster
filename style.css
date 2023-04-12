@@ -1,0 +1,76 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Set font family and color */
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+/* Center the container div */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Style the logo image */
+.logo {
+    display: block;
+    width: 200px;
+    margin: 20px auto;
+}
+
+/* Style the file input */
+#file-input {
+    display: block;
+    margin: 20px auto;
+}
+
+/* Style the preview text */
+.userText {
+    text-align: center;
+    margin: 20px auto;
+}
+
+#preview-text {
+    font-size: 100px;
+}
+
+/* Style the sliders */
+.sliders {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.slider {
+    flex-basis: 48%;
+    margin-bottom: 20px;
+}
+
+.slider label {
+    display: block;
+    font-weight: bold;
+}
+
+.slider input {
+    display: block;
+    width: 100%;
+}
+
+/* Style the export button */
+#export-button {
+    display: block;
+    width: 200px;
+    height: 40px;
+    border: none;
+    background-color: #333;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    margin: 20px auto;
+}

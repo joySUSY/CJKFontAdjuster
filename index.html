@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CJK-font-adjuster</title>
+    <!-- Link to the style.css file -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Link to the script.js file -->
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <!-- Logo image -->
+        <img src="images/logo.png" alt="Logo" class="logo">
+        <!-- File upload input -->
+        <input type="file" id="file-input" accept=".ttf" />
+        <!-- Preview text -->
+        <div class="userText">
+            <p id="preview-text">我你有永源用处出力安全没事美天日本言过其实再见物由是水谷你属怒神色布失望</p>
+        </div>
+        <!-- Sliders for font adjustments -->
+        <div class="sliders">
+            <!-- Slider for contrast for vertical strokes -->
+            <div class="slider">
+                <label for="vertical-contrast">Contrast for vertical strokes</label>
+                <input type="range" id="vertical-contrast" min="0" max="100" value="50" />
+            </div>
+            <!-- Slider for contrast for horizontal strokes -->
+            <div class="slider">
+                <label for="horizontal-contrast">Contrast for horizontal strokes</label>
+                <input type="range" id="horizontal-contrast" min="0" max="100" value="50" />
+            </div>
+            <!-- Slider for width adjustment -->
+            <div class="slider">
+                <label for="width-adjustment">Width adjustment</label>
+                <input type="range" id="width-adjustment" min="-50" max="50" value="0" />
+            </div>
+            <!-- Slider for adjustment for horizontal character's face -->
+            <div class="slider">
+                <label for="horizontal-face">Adjustment for horizontal character's face</label>
+                <input type="range" id="horizontal-face" min="-50" max="50" value="0" />
+            </div>
+            <!-- Slider for adjustment for vertical character's face -->
+            <div class="slider">
+                <label for="vertical-face">Adjustment for vertical character's face</label>
+                <input type="range" id="vertical-face" min="-50" max="50" value="0" />
+            </div>
+            <!-- Slider for counter adjustment -->
+            <div class="slider">
+                <label for="counter-adjustment">Counter adjustment</label>
+                <input type="range" id="counter-adjustment" min="-50" max="50" value="0" />
+            </div>
+            <!-- Slider for vertical adjustment for visual gravity -->
+            <div class="slider">
+                <label for="vertical-gravity">Vertical adjustment for visual gravity</label>
+                <input type="range" id="vertical-gravity" min="-50" max="50" value="0" />
+            </div>
+            <!-- Slider for softness of stroke and dots -->
+            <div class="slider">
+                <label for="softness">Softness of stroke and dots</label>
+                <input type="range" id="softness" min="-50" max="50" value="0" />
+            </div>
+            <!-- Slider for flat stroke openings -->
+            <div class="slider">
+                <label for="flat-openings">Flat stroke openings</label>
+                <input type="range" id="flat-openings" min="0" max="100" value="50" />
+            </div>
+            <!-- Slider for feet removal for character -->
+            <div class="slider">
+                <label for="feet-removal">Feet removal for character</label>
+                <input type="range" id="feet-removal" min="0" max="100" value="50" />
+            </div>
+            <!-- Slider for tension of stroke curve -->
+            <div class="slider">
+                <label for="tension">Tension of stroke curve</label>
+                <input type="range" id="tension" min="-50" max="50" value="0" />
+            </div>
+            <!-- Slider for rounding corner to stroke -->
+            <div class="slider">
+                <label for="rounding">Rounding corner to stroke</label>
+                <input type="range" id="rounding" min="-50" max="50" value="0" />
+            </div>
+            <!-- Slider for adjusting the stroke curvature and stroke width -->
+            <div class="slider">
+                <label for="curvature-width">Adjusting the stroke curvature and stroke width</label>
+                <input type="range" id="curvature-width" min="-50" max="50" value="0" />
+            </div>
+        </div>
+        <!-- Export button -->
+        <button id="export-button">Export and download modified font file</button>
+    </div>
+</body>
+</html>
