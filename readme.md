@@ -16,12 +16,12 @@ Remove feet for character
 Adjust tension of stroke curve
 Apply rounding corner to stroke
 Adjust stroke curvature and stroke width
-The project also allows users to preview text to visualize the effects of adjustments. The preview text is: 我.
+The project also allows users to preview text to visualize the effects of adjustments. 
 
 Installation
 To run this project locally, you need to have Node.js and npm installed on your machine. Then follow these steps:
 
-Clone this repository to your local machine: git clone https://github.com/your-username/CJK-font-adjuster.git
+Clone this repository to your local machine: git clone https:https://github.com/joySUSY/CJKFontAdjuster
 Navigate to the project folder: cd CJK-font-adjuster
 Install the dependencies: npm install
 Start the development server: npm start
